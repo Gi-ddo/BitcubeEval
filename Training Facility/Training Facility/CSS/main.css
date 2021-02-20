@@ -6,7 +6,7 @@
 
 body{
 
-    background-color:khaki
+    background-color:khaki;
 }
 
 nav {
@@ -31,16 +31,19 @@ nav {
     display:flex;
     justify-content: space-around;
     width: 35%;
+    
 }
-    .nav-links li{
-        list-style: none;
+.nav-links li{
+    list-style: none;
+    margin:10px;
         
-    }
+}
 
 .nav-links li:hover {
  background-color:deepskyblue;
  border-radius:0.5vh;
 }
+
 .nav-links a {
    color: whitesmoke;
    text-decoration:none;
@@ -51,6 +54,7 @@ nav {
 .mobile-button{
 
     display:none;
+    cursor:pointer;
 }
 .mobile-button div{
 
@@ -96,6 +100,11 @@ nav {
 
 
 @media screen and (max-width:1024px){
+body{
+
+    overflow-x:hidden;
+}
+
     .nav-links {
         
         width: 50%;
@@ -103,35 +112,43 @@ nav {
 
 }
 
-/*@media screen and (max-width:768px) {
-    body{
+@media screen and (max-width:768px) {
+ body{
         overflow-x:hidden;
-    }
-    .nav-links {
+ }
 
-        position:absolute;
-        right:0px;
-        height:90vh;
-        top:10vh;
-        background-color:dodgerblue;
+ .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 10vh;
+        background-color: coral;
         display:flex;
         flex-direction:column;
         align-items:center;
-        width:30%;
+        width:25%;
         transform: translateX(100%);
-        transition : transform 0.5s ease-in;
-    }
+        transition: transform 0.5s ease-in;
+ }
+ 
 
-    .nav-links li{
-        opacity:0;
-    }
+ .mobile-button{
+     display:block;
 
-    .mobile-button{
-        display:block;
-        cursor:pointer;
-    }
+ }
 
-    .nav-active{
-        transform:translateX(0);
-    }
-}*/
+ .wrap{
+
+     display:flex;
+     flex-direction:column;
+     margin:40px;
+     padding-left:40px;
+ }
+
+ 
+
+}
+
+.nav-active {
+    transform: translateX(0%);
+}

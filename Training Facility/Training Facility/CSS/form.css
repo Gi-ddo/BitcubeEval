@@ -45,6 +45,18 @@ nav {
     letter-spacing: 2px;
 }
 
+.mobile-button {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-button div {
+     width: 25px;
+     height: 2px;
+     background-color: whitesmoke;
+     margin: 5px;
+}
+
 h1{
     text-align:center;
     font-size:50px;
@@ -122,6 +134,38 @@ select {
 .nav-links li{
         margin:5px;
 }
+
+}
+
+@media screen and (max-width:768px) {
+body {
+    overflow-x: hidden;
+}
+
+.nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 6vh;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+   
+}
+
+
+ .mobile-button {
+        display: block;
+}
+
+}
+
+.nav-active {
+    transform: translateX(0%);
 }
 
 
