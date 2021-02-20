@@ -1,0 +1,70 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gift Maposa">
+
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta&display=swap" rel="stylesheet">
+
+    <title>Add Student</title>
+</head>
+<body>
+    <nav>
+        <div class="logged">
+            <h4>Welcome, Lecturer A</h4>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../HTML/index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Support</a></li>
+
+        </ul>
+
+        <div class="mobile-button">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+
+    <h1>Student Form</h1>
+
+
+    <form>
+        <label for="formanes">Fornames</label>
+        <input type="text" placeholder="All names" required name="fornames" id="fornames" />
+
+        <label for="lastname">Last Name</label>
+        <input type="text" placeholder="Last Name" required  name="lastname" id="lastname"/>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" required  name="email" id="email"/>
+
+        <label for="dob">Date Of Birth</label>
+        <input placeholder="Date Of Birth"  type="text" onfocus="(this.type='date')" required name="dob" id="dob">
+
+        <label for="degree">Select Degree</label>
+        <select name="degree" id="degree" required>
+            <option value="">None</option>
+            <option value="Law">Law</option>
+            <option value="ComSci">Computer Science</option>
+            <option value="Acc">Accounting</option>
+            <option value="ElecEng">Electrical Engineering</option>
+        </select>
+
+        <div>
+            <input type="reset" name="Reset" />
+            <input type="submit" name="Add Student" />
+        </div>
+
+    </form>
+</body>
+
+</html>
