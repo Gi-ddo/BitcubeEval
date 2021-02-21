@@ -31,12 +31,12 @@ nav {
 }
 
 .nav-links li {
-        list-style: none;
+    list-style: none;
  }
 
 .nav-links li:hover {
-    background-color: cornflowerblue;
-    border-radius: 1vh;
+    background-color: deepskyblue;
+    border-radius: 0.5vh;
 }
 
 .nav-links a {
@@ -79,14 +79,14 @@ input[type=text]{
     display:block;
     margin-bottom:25px;
     width:100%;
-    border:2px solid red;
+    border:2px solid black;
 }
 
 input[type=email] {
     display: block;
     margin-bottom: 25px;
     width: 100%;
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 input[type=submit]{
@@ -94,7 +94,7 @@ input[type=submit]{
     width:150px;
     height:45px;
     border:2px solid black;
-    background: blue;
+    background-color:limegreen;
     color:white;
     cursor:pointer;
 }
@@ -103,7 +103,7 @@ input[type=reset] {
      width: 150px;
      height: 45px;
      border: 2px solid black;
-     background: blue;
+     background-color:red;
      color: white;
      cursor:pointer;
      margin:8px;
@@ -113,7 +113,7 @@ input[type=date] {
         display: block;
         margin-bottom: 25px;
         width: 100%;
-        border: 2px solid red;
+        border: 2px solid black;
 }
 
 select {
@@ -121,7 +121,7 @@ select {
     margin-bottom: 25px;
     height:35px;
     width: 100%;
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 @media screen and (max-width:1024px) {
@@ -137,7 +137,7 @@ select {
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:580px) {
 body {
     overflow-x: hidden;
 }
@@ -151,7 +151,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
    

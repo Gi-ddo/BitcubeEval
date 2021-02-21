@@ -40,8 +40,9 @@ nav {
 }
 
 .nav-links li:hover {
+
  background-color:deepskyblue;
- border-radius:0.5vh;
+ border-radius: 0.5vh;
 }
 
 .nav-links a {
@@ -69,6 +70,7 @@ nav {
     margin:auto;
     margin-top:100px;
     
+    
 }
 
 .card{
@@ -94,8 +96,8 @@ nav {
 }
 
 .card a:hover {
-        background-color: crimson;
-        border-radius: 1vh;
+     background-color:deepskyblue;
+     border-radius: 1vh;
  }
 
 
@@ -112,7 +114,7 @@ body{
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:580px) {
  body{
         overflow-x:hidden;
  }

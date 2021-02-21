@@ -32,9 +32,12 @@ nav {
 
 .nav-links li {
     list-style: none;
-    margin: 10px;}
+    margin: 10px;
+
+}
 
 .nav-links li:hover {
+
     background-color: deepskyblue;
     border-radius: 0.5vh;
 }
@@ -57,6 +60,46 @@ nav {
     margin: 5px;
 
 }
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px auto;
+    color: cadetblue;
+}
+
+table {
+
+   position:absolute;
+   z-index: 2;
+   left:50%;
+   top:50%;
+   transform:translate(-50%,-50%);
+   width:60%;
+   border-collapse:collapse;
+   border-spacing:0;
+   border-radius: 12px 12px 0 0;
+   overflow:hidden;
+   background-color:white;
+   text-align:center;
+   box-shadow: 0 2px 12px 0 rgba(32,32,32,.8); 
+   margin:15px;
+}
+
+th,td{
+
+    padding: 10px  12px;
+}
+
+th{
+
+    background-color:blue;
+    color: white;
+    text-transform:uppercase;
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+}
 
 
 
@@ -72,7 +115,7 @@ nav {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:580px) {
     body {
         overflow-x: hidden;
     }
@@ -102,6 +145,7 @@ nav {
         margin: 40px;
         padding-left: 40px;
     }
+
 }
 
 .nav-active {

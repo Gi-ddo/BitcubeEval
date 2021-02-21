@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gift Maposa">
+
+    <link rel="stylesheet" href="../CSS/degreespage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+    <title>View Degrees</title>
+</head>
+<body>
+    <nav>
+        <div class="logged">
+            <h4>Welcome, Lecturer A</h4>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../HTML/index.html">Home</a></li>
+            <li><a href="../HTML/Students.html">Students</a></li>
+            <li><a href="../HTML/studentform.html">Add Student</a></li>
+        </ul>
+
+        <div class="mobile-button">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+
+    <h1>Degrees</h1>
+
+    <table>
+
+        <tr>
+            <th>#</th>
+            <th>Degree</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td><button id="modalBtnRef" class="modalBtn">Computer Science</button></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td><button  class="modalBtn">Law</button></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td><button  class="modalBtn">Accounting</button></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td><button  class="modalBtn">Electrical Engineering</button></td>
+        </tr>
+
+    </table>
+
+    <div id="modalRef" class="modal">
+
+        <div class="content">
+
+            <div class="heading">
+                <span id="closeBtnRef" class="closeBtn">&times;</span>
+                <h2>Courses</h2>
+            </div>
+            
+
+            <ul class="modalText">
+                <li>Course A</li>
+                <li>Course B</li>
+                <li>Course C</li>
+                <li>Course D</li>
+                <li>Course E</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="../JavaScript/button.js"></script>
+    <script src="../JavaScript/modalContent.js"></script>
+</body>
+</html>
