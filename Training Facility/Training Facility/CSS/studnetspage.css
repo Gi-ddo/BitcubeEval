@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: khaki;
+    background-color: #ffe05d;
 }
 
 nav {
@@ -13,12 +13,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: coral;
+    background-color: #ff9642;
     min-height: 10vh;
 }
 
 .logged {
-    color: whitesmoke;
+    color: #d9e4dd;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
@@ -37,13 +37,16 @@ nav {
 }
 
 .nav-links li:hover {
+        background-color: deepskyblue;
+ }
 
+.tabActive.active {
     background-color: deepskyblue;
-    border-radius: 0.5vh;
+    padding: 21px;
 }
 
 .nav-links a {
-    color: whitesmoke;
+    color: #d9e4dd;
     text-decoration: none;
     letter-spacing: 2px;
 }
@@ -64,15 +67,14 @@ h1 {
     text-align: center;
     font-size: 50px;
     margin: 30px auto;
-    color: cadetblue;
+    color: white;
 }
 
 table {
 
    position:absolute;
-   z-index: 2;
    left:50%;
-   top:50%;
+   top:55%;
    transform:translate(-50%,-50%);
    width:60%;
    border-collapse:collapse;
@@ -82,27 +84,81 @@ table {
    background-color:white;
    text-align:center;
    box-shadow: 0 2px 12px 0 rgba(32,32,32,.8); 
-   margin:15px;
+   
 }
 
 th,td{
-
     padding: 10px  12px;
 }
 
-th{
-
-    background-color:blue;
+th {
+    background-color: #85603f;
     color: white;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
-tr:nth-child(odd){
-    background-color: gray;
+tr:nth-child(odd) {
+    background-color: #f4c983;
+}
+
+.paging {
+    width: auto;
+    position: fixed;
+    right: 50%;
+    top: 85%;
+   
+}
+.paging ul {
+    position: relative;
+    background-color: white;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.8);
+}
+
+.paging  li {
+    list-style:none;
+    line-height:40px;
+    margin: 0 5px;
 }
 
 
+.paging li.pageNumber{
 
+    width:50px;
+    text-align:center;
+  
+}
+
+.paging  li a{
+
+    display:block;
+    text-decoration:none;
+    color:gray;
+    font-weight:500;
+    border-radius: 5vh;
+}
+
+.paging li.pageNumber:hover a,
+.paging li.pageNumber.active a {
+        background-color: deepskyblue;
+        color: white;
+ }
+
+.paging li:first-child{
+
+    margin-left:20px;
+    font-weight:600;
+    font-size:20px;
+    
+}
+
+.paging li:last-child {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
 
 
 @media screen and (max-width:1024px) {
@@ -122,6 +178,7 @@ tr:nth-child(odd){
 
     .nav-links {
         position: absolute;
+        z-index:2;
         right: 0px;
         height: 100vh;
         top: 10vh;
@@ -132,6 +189,7 @@ tr:nth-child(odd){
         width: 25%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        
     }
 
 

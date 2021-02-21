@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: khaki;
+    background-color: #ffe05d;
 }
 
 nav {
@@ -13,12 +13,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: coral;
+    background-color: #ff9642;
     min-height: 10vh;
 }
 
 .logged {
-    color: whitesmoke;
+    color: #d9e4dd;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
@@ -30,21 +30,27 @@ nav {
     width: 35%;
 }
 
-    .nav-links li {
-        list-style: none;
-        margin: 10px;
-    }
+.nav-links li {
+    list-style: none;
+    margin: 10px;
+}
 
-        .nav-links li:hover {
-            background-color: deepskyblue;
-            border-radius: 0.5vh;
-        }
+.nav-links li:hover{
+        background-color: deepskyblue;
+        border-radius: 0.5vh;
 
-    .nav-links a {
-        color: whitesmoke;
+}
+
+.tabActive.active {
+    background-color: deepskyblue;
+    padding: 21px;
+}
+
+.nav-links a {
+        color: #d9e4dd;
         text-decoration: none;
         letter-spacing: 2px;
-    }
+}
 
 .mobile-button {
     display: none;
@@ -62,16 +68,15 @@ h1 {
     text-align: center;
     font-size: 50px;
     margin: 30px auto;
-    color: cadetblue;
+    color: white;
 }
 
 table {
     position: absolute;
-    z-index: 2;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%,-50%);
-    width: 60%;
+    width: 40%;
     border-collapse: collapse;
     border-spacing: 0;
     border-radius: 12px 12px 0 0;
@@ -79,7 +84,6 @@ table {
     background-color: white;
     text-align: center;
     box-shadow: 0 2px 12px 0 rgba(32,32,32,.8);
-    margin: 15px;
 }
 
 th, td {
@@ -87,24 +91,24 @@ th, td {
 }
 
 th {
-    background-color: blue;
+    background-color: #85603f;
     color: white;
     text-transform: uppercase;
 }
 
 tr:nth-child(odd) {
-    background-color: gray;
+    background-color: #f4c983;
 }
 
-.modalBtn{
-    background-color:Background;
+.modalBtn {
+    background-color: grey;
     color:white;
-    border:0;
-    cursor:pointer;
+    border: 0;
+    cursor: pointer;
 }
 
 .modalBtn:hover{
-    background-color:gray;
+    background-color:deepskyblue;
 }
 
 .modal{
@@ -121,10 +125,16 @@ tr:nth-child(odd) {
 
 .content{
 
-    background-color:gray;
+    background-color:black;
+    padding: 5px;
     margin:20% auto;
     width:20%;
     
+}
+
+.content-body {
+    padding: 20px 20px;
+    background-color: #e7d9ea;
 }
 
 .closeBtn{
@@ -141,13 +151,12 @@ tr:nth-child(odd) {
 }
 
 .heading h2{
-    margin:0;
+    margin:auto;
 }
-.heading{
-    background-color:lightpink;
+.heading {
+    background-color: #a9294f;
     padding:15px;
-    color:whitesmoke;
-
+    color: black;
 }
 
 
@@ -170,6 +179,7 @@ tr:nth-child(odd) {
 
     .nav-links {
         position: absolute;
+        z-index:2;
         right: 0px;
         height: 100vh;
         top: 10vh;

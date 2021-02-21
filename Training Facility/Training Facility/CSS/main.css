@@ -4,9 +4,8 @@
     box-sizing:border-box;
 }
 
-body{
-
-    background-color:khaki;
+body {
+    background-color: #ffe05d;
 }
 
 nav {
@@ -14,13 +13,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
-    background-color:coral;
+    background-color:#ff9642;
     min-height: 10vh;
 }
 
-.logged{
-    
-    color : whitesmoke;
+.logged {
+    color: #d9e4dd;
     text-transform : uppercase;
     letter-spacing: 2px;
     font-size: 20px;
@@ -33,25 +31,25 @@ nav {
     width: 35%;
     
 }
-.nav-links li{
-    list-style: none;
-    margin:10px;
-        
+.nav-links li {
+        list-style: none;
+        margin: 10px;
 }
 
 .nav-links li:hover {
-
- background-color:deepskyblue;
- border-radius: 0.5vh;
+        background-color: deepskyblue;
 }
 
-.nav-links a {
-   color: whitesmoke;
-   text-decoration:none;
-   letter-spacing: 2px;
-  
-   
+.tabActive.active {
+    background-color: deepskyblue;
+    padding:21px;
 }
+
+    .nav-links a {
+        color: #d9e4dd;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
 .mobile-button{
 
     display:none;
@@ -81,6 +79,7 @@ nav {
     text-align:center;
     float:left;
     margin:30px;
+    
 }
 .card a {
      border: none;

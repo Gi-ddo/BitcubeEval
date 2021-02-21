@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: khaki
+    background-color: #ffe05d;
 }
 
 nav {
@@ -13,12 +13,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: coral;
+    background-color: #ff9642;
     min-height: 10vh;
 }
 
 .logged {
-    color: whitesmoke;
+    color: #d9e4dd;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
@@ -34,15 +34,21 @@ nav {
     list-style: none;
  }
 
-.nav-links li:hover {
+.nav-links li:hover
+ {
+        background-color: deepskyblue;
+}
+
+.tabActive.active {
     background-color: deepskyblue;
-    border-radius: 0.5vh;
+    padding: 21px;
 }
 
 .nav-links a {
-    color: whitesmoke;
+    color: #d9e4dd;
     text-decoration: none;
     letter-spacing: 2px;
+
 }
 
 .mobile-button {
@@ -61,7 +67,7 @@ h1{
     text-align:center;
     font-size:50px;
     margin: 30px auto;
-    color:cadetblue;
+    color:white;
 }
 
 form{

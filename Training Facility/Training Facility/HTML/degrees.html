@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="../CSS/degreespage.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="../Images/Icon.png" />
     <title>View Degrees</title>
 </head>
 <body>
     <nav>
         <div class="logged">
-            <h4>Welcome, Lecturer A</h4>
+            <h4>Welcome, John Doe</h4>
         </div>
 
         <ul class="nav-links">
             <li><a href="../HTML/index.html">Home</a></li>
             <li><a href="../HTML/Students.html">Students</a></li>
+            <li><a href="../HTML/degrees.html" class="tabActive active">Degrees</a></li>
             <li><a href="../HTML/studentform.html">Add Student</a></li>
         </ul>
 
@@ -48,38 +49,40 @@
 
         <tr>
             <td>2</td>
-            <td><button  class="modalBtn">Law</button></td>
+            <td><button id="modalBtnRef" class="modalBtn">Law</button></td>
         </tr>
 
         <tr>
             <td>3</td>
-            <td><button  class="modalBtn">Accounting</button></td>
+            <td><button id="modalBtnRef" class="modalBtn">Accounting</button></td>
         </tr>
 
         <tr>
             <td>4</td>
-            <td><button  class="modalBtn">Electrical Engineering</button></td>
+            <td><button id="modalBtnRef" class="modalBtn">Electrical Engineering</button></td>
         </tr>
 
     </table>
 
     <div id="modalRef" class="modal">
-
+       
         <div class="content">
-
             <div class="heading">
                 <span id="closeBtnRef" class="closeBtn">&times;</span>
                 <h2>Courses</h2>
             </div>
-            
 
-            <ul class="modalText">
-                <li>Course A</li>
-                <li>Course B</li>
-                <li>Course C</li>
-                <li>Course D</li>
-                <li>Course E</li>
-            </ul>
+            <div class="content-body">
+
+                <ul class="modalText">
+                    <li>Course A</li>
+                    <li>Course B</li>
+                    <li>Course C</li>
+                    <li>Course D</li>
+                    <li>Course E</li>
+                </ul>
+            </div>
+            
         </div>
 
     </div>
