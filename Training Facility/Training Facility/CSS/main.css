@@ -28,7 +28,7 @@ nav {
 
     display:flex;
     justify-content: space-around;
-    width: 35%;
+    width: auto;
     
 }
 .nav-links li {
@@ -45,11 +45,11 @@ nav {
     padding:21px;
 }
 
-    .nav-links a {
-        color: #d9e4dd;
-        text-decoration: none;
-        letter-spacing: 2px;
-    }
+.nav-links a {
+    color: #d9e4dd;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
 .mobile-button{
 
     display:none;
@@ -99,25 +99,34 @@ nav {
      border-radius: 1vh;
  }
 
-
-@media screen and (max-width:1024px){
-body{
-
-    overflow-x:hidden;
-}
-
-    .nav-links {
-        
-        width: 50%;
-    }
-
-}
-
-@media screen and (max-width:580px) {
+/*Tablet Responsiveness*/
+@media screen and (max-width:768px){
  body{
-        overflow-x:hidden;
+
+     overflow-x: hidden;
+     
  }
 
+.tabActive.active {
+        padding: 15px;
+}
+.card{
+
+    width:300px;
+}
+
+}
+
+/*Mobile responsiveness*/
+@media screen and (max-width:425px) {
+
+ body {
+        overflow-x: hidden;
+ }
+
+.tabActive.active {
+        padding: 26px;
+}
  .nav-links {
         position: absolute;
         right: 0px;
@@ -131,7 +140,6 @@ body{
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
  }
- 
 
  .mobile-button{
      display:block;
@@ -142,7 +150,7 @@ body{
 
      display:flex;
      flex-direction:column;
-     margin:40px;
+     margin:auto;
      padding-left:40px;
  }
 
