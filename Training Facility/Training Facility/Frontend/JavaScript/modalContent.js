@@ -1,10 +1,15 @@
-﻿var modal = document.getElementById('modalRef');
+﻿
+var modal = document.getElementById('modalRef');
+var modalBtn = document.getElementsByClassName('modalBtn');
 
-var modalBtn = document.getElementById('modalBtnRef');
+for (var i = 0; i < modalBtn.length; i++) {
+    
+    modalBtn[i].addEventListener('click', openModal);
+}
 
 var closeBtn = document.getElementById('closeBtnRef');
 
-modalBtn.addEventListener('click', openModal);
+
 closeBtn.addEventListener('click', closeModal);
 window.addEventListener('click', windowClick);
 
