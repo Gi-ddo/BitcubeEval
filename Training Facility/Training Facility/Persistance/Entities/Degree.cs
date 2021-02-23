@@ -6,10 +6,10 @@ namespace Training_Facility
 {
 	public class Degree
 	{
-		private string degreeName { get; set; }
-		private int durationInYears { get; set; }
-		private List<Course> courses { get; set; }
-		private Lecturer lecturer { get; set; }
+		public string degreeName { get; set; }
+		public int durationInYears { get; set; }
+		public  List<Course> courses { get; set; }
+		public  Lecturer lecturer { get; set; }
 
 		public Degree(string degreeName, int durationInYears, Lecturer lecturer, List<Course> courses)
 		{

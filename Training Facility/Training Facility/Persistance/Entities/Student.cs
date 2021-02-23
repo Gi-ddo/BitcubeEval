@@ -5,7 +5,7 @@ namespace Training_Facility
 {
 	public class Student : Person
 	{
-		private Degree degree { get; set; }
+		public Degree degree { get; set; }
 
 		public Student(string fornames, string surname, string emailAddress, string dateOfBirth, Degree degree)
 		{

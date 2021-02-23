@@ -1,0 +1,42 @@
+{
+
+  "Students": [
+
+    {
+      "fornames": "Christopher, Belle",
+      "Surname": "Bowen",
+      "emailAddress": "dolor.sit.amet@musProinvel.net",
+      "DateOfBirth": "29/05/1998"
+    },
+
+    {
+      "fornames": "Warren, Wang",
+      "Surname": "Zamora",
+      "emailAddress": "Aliquam.rutrum.lorem@luctusipsum.com",
+      "DateOfBirth": "18/09/1997"
+    },
+
+    {
+      "fornames":"Geoffrey, Silas",
+      "Surname""Cummings",
+      "email":"mollis.vitae.posuere@Duis.edu",
+      "DateOfBirth":"11/09/1997"
+    },
+
+    {
+      "Fornames":"Dahlia, Reece",
+      "Surname":"Thornton",
+      "email":"hendrerit.consectetuer.cursus@mauris.com",
+      "DateOfBirth":"28/06/1997"
+
+    },
+
+    {
+      "fornames":"Jermaine, Xanthus",
+      "surname":"Blair",
+      "email":"placerat.Cras.dictum@nuncsed.ca",
+      "DateOfBirth":"20/03/1998"
+    }
+  ]
+}
+  

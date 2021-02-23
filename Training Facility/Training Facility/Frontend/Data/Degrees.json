@@ -1,0 +1,56 @@
+{
+  "Degrees": [
+
+    {
+      "degreeName": "Law",
+      "durationInYears": 4,
+
+      "Courses": [
+
+        "Commercial Law",
+        "Fundamentals of Law",
+        "Family law",
+        "Human Rights law"
+      ]
+    },
+
+    {
+      "degreeName": "Accounting",
+      "durationInYears": 4,
+
+      "Courses": [
+
+        "Taxation",
+        "Accounting",
+        "Financial Law",
+        "Computational Maths "
+      ]
+    },
+
+    {
+      "degreeName": "Computer Science",
+      "durationInYears": 3,
+
+      "Courses": [
+
+        "Data Structures and Algorithms",
+        "Mathematics",
+        "Database Fundamentals",
+        "Machine learning"
+      ]
+    },
+
+    {
+      "degreeName": "Electrical Engineering",
+      "durationInYears": 4,
+
+      "Courses": [
+
+        "Engineering Design",
+        "Engineering Maths",
+        "Electronics",
+        "Signals and Systems"
+      ]
+    }
+  ]
+}

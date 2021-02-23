@@ -6,9 +6,9 @@ namespace Training_Facility
 {
 	public class Course
 	{
-		private string courseName { get; set; }
-		private int durationInMonths { get; set; }
-		private Degree degree { get; set; }
+		public string courseName { get; set; }
+		public int durationInMonths { get; set; }
+		public  Degree degree { get; set; }
 
 		public Course(string courseName, int durationInMonths, Degree degree)
 		{
